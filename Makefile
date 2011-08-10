@@ -8,6 +8,9 @@ OBJ = obj/libnetmanager.o
 CFLAGS = -DVERSION=\"${VERSION}\" -I include/ 
 
 all:
+	mkdir bin/
+	mkdir obj/
+	mkdir lib/
 	gcc -o $(BIN) $(SRC) $(CFLAGS) -c
 	gcc -c $(SRC) -o $(OBJ) $(CFLAGS)
 	ar rcs $(LIB) $(OBJ)
