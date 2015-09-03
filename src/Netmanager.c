@@ -2,7 +2,7 @@
  * il protocollo HTTP.
  * Offre in aggiunta funzioni per la gestione basso-livello della scrittura e lettura delle informazioni sui socket.
  * 
- * Federico Gerardi (aka Darkness-hack) <2011>*/
+ * Federico Gerardi (aka AzraelSec) <2011>*/
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
